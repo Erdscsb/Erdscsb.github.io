@@ -1,0 +1,95 @@
+#body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    padding-left: 1.5625rem;
+    background-image:  url("images/wallpaper.jpg");
+  }
+
+header {
+    display: block;
+}
+
+.w-100.shadow-1-strong.rounded.mb-4 {
+    width: 50%;
+    height: 50%;
+  }
+
+nav#searchbar {
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.9375rem;
+    border-radius: 0.9375rem;
+    border:solid 0.0625rem black;
+    padding:0.3125rem;
+ }
+
+ nav#tartalomraugras a {position:absolute; left:-9999px}
+ nav#tartalomraugras a:focus {position:static; background-color:white}
+
+  .d-table {
+    display:table;
+  }
+  
+  .d-table-cell {
+    display:table-cell;
+   padding-bottom: 1.875rem;
+   text-align:justify;
+  }
+  
+  .d-table.text {
+    border-radius: 0.9375rem;
+    border:solid 0.0625rem black;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+  
+    .d-table-cell{
+      width:100%;
+      max-width: 200px;
+      text-align:left;  
+    }
+  }
+
+  .w-100 {
+    width:100%;
+  }
+  
+  .tar {
+    text-align: left;
+    padding-top: 1.25rem;
+    padding-bottom:0rem;
+    padding-right:10.625rem;
+  }
+
+  .buttoncell {
+    font-weight: bold;
+    height: 3.125rem;
+    width: 12.5rem;
+  }
+.imagewrap {display:inline-block;position:relative;}
+
+.button:link {
+  position:absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  padding: 0.9375rem 1.5625rem;
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+}
+
+.button:visited {
+  color: purple;
+}
+
+.buttonf {
+  text-align:right;
+  position:relative;
+}
+

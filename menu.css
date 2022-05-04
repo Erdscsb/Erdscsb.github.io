@@ -1,0 +1,103 @@
+#body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } 
+
+.nav-link.title {
+    position: absolute;
+    left: 60%;
+    transform: translatex(-50%);
+    font-weight:bold;
+    font-size:large;
+}
+
+nav#searchbar {
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.9375rem;
+    border-radius: 0.9375rem;
+    border:solid 0.0625rem black;
+    padding:0.3125rem;
+ }
+
+ nav#tartalomraugras a {position:absolute; left:-9999px}
+ nav#tartalomraugras a:focus {position:static; background-color:white}
+
+
+
+table{
+    width: 100%;;
+    height: 100%;
+    position:absolute;
+}
+
+.table th, table td {
+    border: 1px solid #161b21;
+}
+
+.table-body-text {
+    vertical-align: middle;
+    text-align:center;
+}
+
+.table-body-text-h {
+    background-color: black;
+    color:white;
+    text-align:center;  
+}
+
+.imgcenter {
+    text-align:center;
+    width: 50%;
+    height:auto;
+}
+
+header {
+    display: block;
+}
+
+.buttonf {
+    text-align:right;
+    position:relative;
+}
+
+.thumbnail{
+    text-align:center;
+    position:relative;
+}
+
+.paragraph {
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.text {
+    margin-left:2%;
+    text-align:left;
+}
+
+.video {
+    margin-left:2%;
+    max-width: 100%;
+    height: auto;
+}
+
+.b{
+    position:relative;
+    text-align: right;
+    padding-top:10%;
+}
+
+.subres {
+    height:50px;
+    width:100px;
+    margin-right:1%;
+    text-align: center;
+}
+
+.hyplink:link {
+    color:black;
+}
+
+.hyplink:visited {
+    color:purple;
+}
+

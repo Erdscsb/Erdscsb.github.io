@@ -1,0 +1,16 @@
+header, footer, aside, nav, form{
+    display: none;
+}
+#body{
+    font-family:serif;
+    font-size:12pt;
+}
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  @page {
+      margin: 2cm;
+  }
